@@ -1,6 +1,6 @@
 import java.util.*;
 public class BinarySearch {
-    public static void print(int arr[],int size)
+    public static void print(int arr[])
     {
         System.out.println("The array elements are:");
         for(int x : arr){
@@ -42,7 +42,7 @@ public class BinarySearch {
         }
         System.out.println("Enter the element you want to search:");
         int key  =sc.nextInt();
-        print(arr,size);
+        print(arr);
         int result =BS(arr,size,key);
         if(result<0)
         {
